@@ -1,0 +1,148 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+}
+.container{
+    max-width : 1368px;
+}
+.home{
+    background : url('bg.jpg') no-repeat center/cover;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+nav{
+    flex  : 1;
+}
+ul li{
+    display: inline-block;
+    padding: 10px 10px;
+    list-style : none;
+}
+.menu a{
+    color : white;
+    text-decoration: none;
+}
+.home p{
+    padding-top: 70px;
+    padding-bottom: 90px;
+    font-size : 30px;
+    font-weight : 300;
+    color : white;
+}
+.first .row{
+    text-align: center;
+}
+.first{
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.first img{
+    margin-bottom: 30px;
+}
+.serve{
+    background-color: antiquewhite;
+    padding-top: 90px;
+    padding-bottom: 70px;
+}
+
+.serve .row{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    
+}
+.office{
+    padding-top : 50px;
+    padding-bottom: 60px;
+    background-color : rgb(204, 206, 211);
+    color : darkblue;
+}
+.office .row{
+    text-align : center;
+    display: flex;
+    justify-content: center;
+}
+.office .btn{
+    padding: 15px 25px;
+    border : 2px rgb(179, 174, 174) solid;
+}
+.office .btn:hover{
+    background-color : black;
+    color : white;
+    transition: 1.5s;
+}
+.go{
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+.go .row{
+    text-align : center;
+    display: flex;
+    justify-content: center;
+}
+.go .btn{
+    padding: 15px 25px;
+    border : 2px rgb(179, 174, 174) solid;
+}
+.go .btn:hover{
+    background-color : black;
+    color : white;
+    transition: 1.5s;
+}
+.cafe{
+    padding-top: 50px;
+    padding-bottom: 80px;
+    background-color: darkmagenta;
+    color : white;
+}
+.cafe .row{
+    text-align : center;
+    display: flex;
+    justify-content: center;
+}
+.cafe img{
+    margin-top: 20px;
+}
+.cafe .btn{
+    color : white;
+    margin-top: 10px;
+    padding: 15px 25px;
+    border : 2px rgb(179, 174, 174) solid;
+}
+.cafe .btn:hover{
+    background-color : rgb(223, 217, 217);
+    color : rgb(12, 12, 12);
+    transition: 1.5s;
+}
+.us{
+    padding-top: 50px;
+    padding-bottom: 80px;
+    background-color: rgb(226, 214, 226);
+    color : rgb(20, 20, 20);
+}
+.us .row{
+    text-align : center;
+    display: flex;
+    justify-content: center;
+}
+.follow{
+    padding-top : 20px;
+    padding-bottom : 20px;
+    background-color: rgb(126, 122, 122);
+
+}
+.follow .row{
+    text-align : center;
+    display: flex;
+    justify-content: center;
+}
+.follow i{
+    color : black;
+}
+.follow h5{
+    margin-bottom: 10px;
+}
